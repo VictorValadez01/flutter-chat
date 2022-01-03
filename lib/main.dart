@@ -8,8 +8,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Whapp',
-      initialRoute: 'login',
+      title: 'CHAT',
+      initialRoute: 'chat',
       routes: appRoutes,
     );
   }
